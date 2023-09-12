@@ -14,7 +14,35 @@ header {
     text-align: center;
     background-color: bisque;
     height: 120px;
-    padding-top: 20px;
+    padding-top: 10px;
     width: 100%;
     margin: 0;
+}
+table, tr, td {
+    border: 1px solid;
+}
+table{
+    width: 80%;
+    background-color: #deb879 ;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+#center {
+    text-align: center;
+}
+
+#content p {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#content ul {
+    margin-left: 5%;
+    margin-right: 5%;
 }
