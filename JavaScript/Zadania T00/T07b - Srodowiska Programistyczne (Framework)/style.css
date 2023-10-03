@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 20px;
+    text-align: center;
+}
+hr {
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+    font-family: Candara;
+    margin: 10px;
+}
+
+li {
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+body {
+    background-color: sandybrown;
+}
