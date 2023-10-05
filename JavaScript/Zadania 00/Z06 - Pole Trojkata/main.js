@@ -11,5 +11,5 @@ btn.addEventListener('click', function () {
     let pole = 0.5*(a+b+c);
     let s = Math.sqrt(pole*(pole-a)*(pole-b)*(pole-c));
 
-    wynik.innerHTML = "a = "+a+"<br>b = "+b+"<br>c = "+c+"<br>Wynik = "+s+"cm2";
+    wynik.innerHTML = "Pole trojkata o bokach :"+"<br> a = "+a+"<br>b = "+b+"<br>c = "+c+"<br>Wynosi = "+s+"cm2";
 })
