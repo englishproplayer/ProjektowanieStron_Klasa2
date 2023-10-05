@@ -6,7 +6,7 @@ const btn = document.querySelector('button');
 btn.addEventListener('click', function () {
     let a = parseInt(liczba1.value);
     let b = parseInt(liczba2.value);
-    let iloraz = a/b;
+    let iloraz = Math.floor(a/b);
     let iloczyn = a*b;
     let suma = a+b;
     let roznica = a-b;
