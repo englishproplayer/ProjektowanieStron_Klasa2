@@ -8,5 +8,5 @@ btn.addEventListener('click', function () {
     let k = parseFloat(a+273,15);
 
 
-    wynik.innerHTML = "Stopnie w skali Celsjusza : "+a+"<br>Stopnie w skali Fahrenheita : "+f+"<br>Stopnie w skali Kelwina : "+k;
+    wynik.innerHTML = "Stopnie w skali Celsjusza : "+a.toFixed(1)+"<br>Stopnie w skali Fahrenheita : "+f.toFixed(1)+"<br>Stopnie w skali Kelwina : "+k.toFixed(1);
 })
