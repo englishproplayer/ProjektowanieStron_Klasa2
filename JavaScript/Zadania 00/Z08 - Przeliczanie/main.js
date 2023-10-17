@@ -4,9 +4,11 @@ const btn = document.querySelector('button');
 
 btn.addEventListener('click', function () {
     let s = parseInt(liczba1.value);
-    let h = (s/3600).toFixed(0);
-    s = s - (h*3600);
+    let m = Math.floor(s/60);
+    s = s%60;
+    let h = Math.floor(m/60);
+    m = m%60;
 
-    wynik.innerHTML = h+"  "+s;
+    wynik.innerHTML = h+"g"+m+"m"+s+"s";
 
 })
